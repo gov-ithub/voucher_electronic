@@ -1,0 +1,31 @@
+<app-html contentName="public.furnizorSignup.hero"></app-html>
+<div class="container">
+<section class="step" *ngIf="currentStep === 'createAccount'">
+    <div class="row">
+        <div class="col-md-6 hidden-sm hidden-xs">
+            <app-html contentName="public.furnizorSignup.step1.help"></app-html>
+        </div>
+        <div class="col-md-6">
+    <app-signup></app-signup>
+        </div>
+    </div>
+</section>
+<section class="step" *ngIf="currentStep === 'companyDetails'">
+
+</section>
+
+<section class="step" *ngIf="currentStep === 'contactDetails'">
+
+</section>
+<section class="step" *ngIf="currentStep === 'repDetails'">
+
+</section>
+
+<section class="step" *ngIf="currentStep === 'bankDetails'">
+
+</section>
+
+<section class="step" *ngIf="currentStep === 'documents'">
+
+</section>
+</div>
